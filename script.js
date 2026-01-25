@@ -161,7 +161,7 @@ function hideSuccessModal() {
  * @returns {Promise} - Promise that resolves with the API response
  */
 async function submitFormData(formData) {
-    const apiUrl = 'https://clinic12.app.n8n.cloud/webhook-test/ad7b26c0-33fb-4968-bc2c-63068d0a4600';
+    const apiUrl = 'https://clinic12.app.n8n.cloud/webhook/ad7b26c0-33fb-4968-bc2c-63068d0a4600';
     
     try {
         const response = await fetch(apiUrl, {
