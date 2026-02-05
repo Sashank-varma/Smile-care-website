@@ -255,11 +255,12 @@ body {
 
 /* Form Styles */
 .contact-form {
-    background: white;
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
     padding: 2rem;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+
 
 .form-group {
     margin-bottom: 1.5rem;
